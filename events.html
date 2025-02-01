@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafePlace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #AEEEEE; 
+            color: white;
+            font-family: 'Oswald', sans-serif; /* Correct font-family declaration */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FFA7A6; 
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #AEEEEE; /* Fixed missing semicolon */
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Additional styles for event sections */
+        .event {
+            max-width: 800px; 
+            margin: auto; 
+            padding: 20px; 
+            background-color: #92eded; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #beeded; /* Unified border style */
+            margin-bottom: 15px; /* Added margin at the bottom of event sections */
+        }
+
+        .event h2 {
+            color: #e29a98; 
+            margin-top: 0;
+        }
+        
+        .event p {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to our Events Section!</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="#events">Events</a>
+        <a href="#chatroom">Chatroom</a>
+        <a href="#contact">About</a>
+    </nav>
+</header>
+
+<main>
+    <p>Check out this section if you want to inform yourself about fun and informative events in your area!</p>
+
+    <div class="event">
+        <h2>EYE2025</h2>
+        <p>
+            Every two years, the European Youth Event (EYE) brings together thousands of young people from across the EU and beyond...
+            <br><br>
+            The sixth edition, EYE2025, will take place on June 13-14, 2025, at the European Parliament in Strasbourg...
+            <br><br>
+            Interested? You can find more information on <a href="https://european-youth-event.europarl.europa.eu/de" target="_blank">EYE2025 Site</a>
+        </p>
+    </div>
+
+    <div class="event">
+        <h2>Aktuelle Entwicklungen in der europäischen Sozialpolitik</h2>
+        <p>
+            "Current Developments in European Social Policy"
+            <br><br>
+            This event provides an overview of current topics and trends in European social policy...
+            <br><br>
+            Interested? You can find more information on <a href="https://www.deutscher-verein.de/events/detail/europaeische-sozialpolitik/" target="_blank">German Association Event</a>
+        </p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2023 SafePlace. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
